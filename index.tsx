@@ -33,11 +33,11 @@ interface Course {
 const COURSES: Course[] = [
   // --- 一、通识教育 ---
   // 思想政治类
-  { id: 1, name: "四史", enName: "Four History", code: "231304002", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 1, totalHours: "16 (讲授:16)", assessment: "考查", semester: 1, description: "《四史》是一门高校思想政治选择性必修课，涵盖党史、新中国史、改革开放史和社会主义发展史四个板块。课程旨在帮助学生从历史中汲取智慧，理解红色政权、新中国和中国特色社会主义的来之不易。通过自主学习和互动探讨，引导学生树立唯物主义历史观，增强分析问题的能力，坚定"四个自信"。" },
+  { id: 1, name: "四史", enName: "Four History", code: "231304002", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 1, totalHours: "16 (讲授:16)", assessment: "考查", semester: 1, description: "《四史》是一门高校思想政治选择性必修课，涵盖党史、新中国史、改革开放史和社会主义发展史四个板块。课程旨在帮助学生从历史中汲取智慧，理解红色政权、新中国和中国特色社会主义的来之不易。通过自主学习和互动探讨，引导学生树立唯物主义历史观，增强分析问题的能力，坚定四个自信。" },
   { id: 2, name: "中国近现代史纲要", enName: "Survey of Modern Chinese History", code: "231304001", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 3, totalHours: "48 (讲授:40, 实践:8)", assessment: "考试", semester: 2, description: "《中国近现代史纲要》是面向全国高校各专业本科生的思想政治理论必修课程。课程旨在帮助学生掌握近现代中国社会发展与革命历程的内在规律，深刻理解历史和人民选择马克思主义、中国共产党、社会主义道路与改革开放的必然性。通过系统学习，引导学生树立唯物史观，增强“四个自信”，自觉担当起实现中华民族伟大复兴的时代使命。" },
-  { id: 3, name: "形势与政策 1", enName: "Position and Policy 1", code: "231306001", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 0.5, totalHours: "16", assessment: "考查", semester: 1, description: "《形势与政策》是高校思想政治理论必修课，承担引导大学生准确理解党和国家方针政策的重要使命。课程围绕习近平新时代中国特色社会主义思想，设置全面从严治党、经济社会发展、港澳台工作及国际形势等专题教学。通过时效性理论武装与针对性教育引导，帮助学生树立正确的世界观、人生观和价值观，坚定“四个自信”。" },
+  { id: 3, name: "形势与政策 1", enName: "Position and Policy 1", code: "231306001", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 1, totalHours: "16", assessment: "考查", semester: 1, description: "《形势与政策》是高校思想政治理论必修课，承担引导大学生准确理解党和国家方针政策的重要使命。课程围绕习近平新时代中国特色社会主义思想，设置全面从严治党、经济社会发展、港澳台工作及国际形势等专题教学。通过时效性理论武装与针对性教育引导，帮助学生树立正确的世界观、人生观和价值观，坚定“四个自信”。" },
   { id: 3002, name: "形势与政策 2", enName: "Position and Policy 2", code: "231306002", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 0.5, totalHours: "8", assessment: "考查", semester: 3, description: "《形势与政策》是高校思想政治理论必修课，承担引导大学生准确理解党和国家方针政策的重要使命。课程围绕习近平新时代中国特色社会主义思想，设置全面从严治党、经济社会发展、港澳台工作及国际形势等专题教学。通过时效性理论武装与针对性教育引导，帮助学生树立正确的世界观、人生观和价值观，坚定“四个自信”。" },
-  { id: 3003, name: "形势与政策 3", enName: "Position and Policy 3", code: "231306003", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 1, totalHours: "8", assessment: "考查", semester: 4, description: "《形势与政策》是高校思想政治理论必修课，承担引导大学生准确理解党和国家方针政策的重要使命。课程围绕习近平新时代中国特色社会主义思想，设置全面从严治党、经济社会发展、港澳台工作及国际形势等专题教学。通过时效性理论武装与针对性教育引导，帮助学生树立正确的世界观、人生观和价值观，坚定“四个自信”。"  },
+  { id: 3003, name: "形势与政策 3", enName: "Position and Policy 3", code: "231306003", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 0.5, totalHours: "8", assessment: "考查", semester: 4, description: "《形势与政策》是高校思想政治理论必修课，承担引导大学生准确理解党和国家方针政策的重要使命。课程围绕习近平新时代中国特色社会主义思想，设置全面从严治党、经济社会发展、港澳台工作及国际形势等专题教学。通过时效性理论武装与针对性教育引导，帮助学生树立正确的世界观、人生观和价值观，坚定“四个自信”。"  },
   { id: 4, name: "思想道德与法治", enName: "Ideology and Morality and Rule of Law", code: "231303001", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 3, totalHours: "48 (讲授:40, 实践:8)", assessment: "考查", semester: 2, description: "《思想道德与法治》是高校思想政治理论必修课，以马克思主义和习近平新时代中国特色社会主义思想为指导，融合人生观、价值观、道德观与法治观教育。课程通过理论学习和实践体验，引导学生提升思想道德素质与法治素养，自觉践行社会主义核心价值观。旨在为学生成长为担当民族复兴大任的时代新人奠定坚实的思想基础和法律意识。"  },
   { id: 5, name: "习近平新时代中国特色社会主义思想概论", enName: "Intro to Xi Jinping Thought", code: "231302002", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 3, totalHours: "48 (讲授:40, 实践:8)", assessment: "考查", semester: 2, description: "《习近平新时代中国特色社会主义思想概论》是高校思想政治理论必修课程，系统阐述这一思想的科学体系、核心要义与实践要求。课程旨在帮助学生掌握其内在逻辑与马克思主义立场观点方法，培养运用科学理论分析和解决问题的能力。引导学生将学理认知转化为坚定信念，把爱国情、强国志、报国行自觉融入中华民族伟大复兴的奋斗实践。"  },
   { id: 6, name: "马克思主义基本原理", enName: "Theory of Marxism", code: "231301001", category: "通识教育", subcategory: "思想政治类", nature: "必修", credit: 3, totalHours: "48 (讲授:40, 实践:8)", assessment: "考试", semester: 3, description: "《马克思主义基本原理》是高校思想政治理论课程体系中的核心课程，系统阐述马克思主义哲学、政治经济学和科学社会主义的基本原理与方法。课程旨在帮助学生掌握马克思主义的科学世界观和方法论，并运用其分析与解决实际问题。通过理论学习与实践结合，引导学生树立共产主义崇高理想，增强认识世界和改造世界的能力。"  },
@@ -322,13 +322,13 @@ const App = () => {
             <div>
               <div className="flex items-center gap-2 text-blue-400 font-medium mb-2">
                 <Building size={20} />
-                <span>Smart Building & Construction</span>
+                <span>NCHU：Smart Building & Construction</span>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-                智慧建筑与建造专业<br className="md:hidden"/>教学计划
+                南昌航空大学智慧建筑与建造专业<br className="md:hidden"/>教学计划
               </h1>
               <p className="text-slate-400 mt-2 max-w-xl">
-                融合建筑学、土木工程、人工智能与物联网技术的跨学科培养方案。
+                南昌航空大学智能建筑与建造专业：软科2024、2025专业排名全国第三、江西省第一，学科实力获教育部新工科研究与改革实践项目认证。学科依托学校航空背景，独创“空天地一体化”课程体系。
               </p>
             </div>
             
