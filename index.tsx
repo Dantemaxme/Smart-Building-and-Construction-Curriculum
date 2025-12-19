@@ -325,10 +325,13 @@ const App = () => {
                 <span>NCHU：Smart Building & Construction</span>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-                南昌航空大学智慧建筑与建造专业<br className="md:hidden"/>教学计划
+                南昌航空大学智慧建筑与建造专业<br className="md:hidden"/>人才培养方案
               </h1>
               <p className="text-slate-400 mt-2 max-w-xl">
                 南昌航空大学智能建筑与建造专业：软科2024、2025专业排名全国第三、江西省第一，学科实力获教育部新工科研究与改革实践项目认证。学科依托学校航空背景，独创“空天地一体化”课程体系。
+              </p>
+              <p className="text-slate-400 mt-2 max-w-xl">
+                本网站最终解释权归南昌航空大学智能建筑与建造专业所有，©Danting Luo
               </p>
             </div>
             
