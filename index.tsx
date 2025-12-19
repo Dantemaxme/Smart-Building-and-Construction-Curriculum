@@ -330,9 +330,6 @@ const App = () => {
               <p className="text-slate-400 mt-2 max-w-xl">
                 南昌航空大学智能建筑与建造专业：软科2024、2025专业排名全国第三、江西省第一，学科实力获教育部新工科研究与改革实践项目认证。学科依托学校航空背景，独创“空天地一体化”课程体系。
               </p>
-              <p className="text-slate-400 mt-2 max-w-xl">
-                本网站最终解释权归南昌航空大学智能建筑与建造专业所有，©Danting Luo
-              </p>
             </div>
             
             <div className="flex gap-4 text-sm">
@@ -492,7 +489,7 @@ const App = () => {
               面向未来的建筑工程人才培养方案，涵盖数字化设计、智能施工、BIM技术与全生命周期管理。
             </p>
             <div className="mt-8 text-xs text-slate-400">
-              © 2024 教学计划展示系统
+              本网站展示内容最终解释权归南昌航空大学智能建筑与建造专业所有 ©Danting Luo
             </div>
          </div>
       </footer>
